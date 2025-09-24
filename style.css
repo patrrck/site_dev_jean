@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  /* Fundo animado */
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5d6c997-4a80-4105-ad9c-0208ff62b342/dg1s4qn-f7a1488a-8593-4a10-b20e-c060e3cf0e4d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1ZDZjOTk3LTRhODAtNDEwNS1hZDljLTAyMDhmZjYyYjM0MlwvZGcxczRxbi1mN2ExNDg4YS04NTkzLTRhMTAtYjIwZS1jMDYwZTNjZjBlNGQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0WvJUbeJhQoHrjHO5QDcPPR4dg6v-ZgYsktDzs0elyk');
+  background-size: cover;              /* Estica para cobrir tudo */
+  background-repeat: no-repeat;        /* Não repete */
+  background-position: center center;  /* Centralizado */
+  background-attachment: fixed;        /* Fixa no lugar ao rolar */
+}
+
+
+
+header {
+  background-color: #6675ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}       
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #6675ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
